@@ -17,7 +17,7 @@ class Alien(Sprite):
         self.ai_settings = ai_settings
 
         # Load the alien image, and set its rect attribute.
-        self.image = pygame.image.load("images/alien.bmp")
+        self.image = pygame.image.load("alien.bmp")
         self.rect = self.image.get_rect()
 
         # Start each new alien near the top left of the screen.
@@ -263,7 +263,7 @@ class Ship(Sprite):
         self.ai_settings = ai_settings
 
         # Load the ship image, and get its rect.
-        self.image = pygame.image.load("images/ship.bmp")
+        self.image = pygame.image.load("ship.bmp")
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
